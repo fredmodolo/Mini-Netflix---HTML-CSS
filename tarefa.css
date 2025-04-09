@@ -1,0 +1,83 @@
+* {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    padding: 15px;
+}
+header {
+    background-color: red;
+    height: 100px;
+    padding-top: 10px;
+    text-align: center;
+    margin: 0;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.banner {
+    background-image: url(cinema-foto-por-tima-miroshnichenko-via-pexels.jpg);
+    height: 200px;
+    background-position: center ;
+    background-size: cover;
+    object-fit: cover;
+}
+.sobrenos {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+h2 {
+    text-align: center;
+}
+.planos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.plano {
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+    text-align: center;
+}
+.imagem {
+    max-width: 100%;
+    max-height: 150px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto 10px;
+    border-radius: 5px ;
+}
+.botao {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.produto img {
+    width: 100%;
+    border-radius: 10px;
+}
+iframe {
+    border-radius: 15px;
+}
+
+footer {
+    color: antiquewhite;
+    text-align: center;
+    padding: 20px;
+    background-color: red;
+    margin-top: 20px;
+}
+
+   
+  
